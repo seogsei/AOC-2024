@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC 2024 Day 1", "AOC 2024 Day 1\AOC 2024 Day 1.csproj", "{29A52087-9AD7-4C54-AB85-FBFBE220F7F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC 2024 Day 3", "AOC 2024 Day 3\AOC 2024 Day 3.csproj", "{CCC0149B-743E-4800-B849-E9F11614397E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOC 2024 Day 3", "AOC 2024 Day 3\AOC 2024 Day 3.csproj", "{CCC0149B-743E-4800-B849-E9F11614397E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
