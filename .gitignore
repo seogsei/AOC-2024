@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/AOC 2024 Day 1/Properties/Resources.resx
+/AOC 2024 Day 3/Properties/Resources.resx
