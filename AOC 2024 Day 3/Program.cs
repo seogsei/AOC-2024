@@ -8,22 +8,22 @@ Part2(data);
 
 static void Part1(string data)
 {
-    long sum = 0;
+    long solution = 0;
     for (var match = Part1Regex().Match(data); match.Success; match = match.NextMatch())
     {
         var variables = match.ValueSpan[4..^1];
         var commaIdx = variables.IndexOf(',');
         var numA = int.Parse(variables[..(commaIdx)]);
         var numB = int.Parse(variables[(commaIdx + 1)..]);
-        sum += numA * numB;
+        solution += numA * numB;
     }
-    Console.WriteLine(sum);
+    Console.WriteLine(solution);
 }
 
 static void Part2(string data)
 {
     bool state = true;
-    long sum = 0;
+    long solution = 0;
     for (var match = Part2Regex().Match(data); match.Success; match = match.NextMatch())
     {
         var value = match.Value;
@@ -44,9 +44,9 @@ static void Part2(string data)
 
         var numA = int.Parse(variables[..(commaIdx)]);
         var numB = int.Parse(variables[(commaIdx + 1)..]);
-        sum += numA * numB;
+        solution += numA * numB;
     }
-    Console.WriteLine(sum);
+    Console.WriteLine(solution);
 }
 
 partial class Program
